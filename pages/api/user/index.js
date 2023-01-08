@@ -23,7 +23,7 @@ export default withApiAuthRequired(async function handler(req, res) {
           },
           body: JSON.stringify({
             dataSource: process.env.MONGODB_DATA_SOURCE,
-            database: "social_butterfly",
+            database: "marites",
             collection: "users",
           }),
         });
@@ -41,7 +41,7 @@ export default withApiAuthRequired(async function handler(req, res) {
             },
             body: JSON.stringify({
               dataSource: process.env.MONGODB_DATA_SOURCE,
-              database: "social_butterfly",
+              database: "marites",
               collection: "users",
               filter: { _id: { $oid: readDataJson.document._id } },
               update: {
@@ -75,7 +75,7 @@ export default withApiAuthRequired(async function handler(req, res) {
           },
           body: JSON.stringify({
             dataSource: process.env.MONGODB_DATA_SOURCE,
-            database: "social_butterfly",
+            database: "marites",
             collection: "users",
             filter: { _id: { $oid: req.body._id } },
             update: {
