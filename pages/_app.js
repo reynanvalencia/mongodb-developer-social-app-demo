@@ -43,7 +43,7 @@ export default function App(props) {
                     "#68004A", // btn-primary dark
                     "#340230", // btn-hover, highlight dark
                   ],
-                  // #00ED64, #00684A, #023430
+                  // #ED0064, #68004A, #340230
                 },
                 primaryColor: "brand",
                 colorScheme,
