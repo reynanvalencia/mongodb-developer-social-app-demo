@@ -27,7 +27,7 @@ export function Logo(props) {
     >
       <g id="Layer_1">
         <title>Layer 1</title>
-        <text x="2.5" xmlSpace="preserve" text-anchor="start" font-family="'Truculenta'" font-size="300" id="svg_1" y="200" stroke-width="5" stroke="#bf0000" fill="#bf0000">Marites</text>
+        <text x="2.5" xmlSpace="preserve" textAnchor="start" fontFamily="'Truculenta'" fontSize="300" id="svg_1" y="200" strokeWidth="5" stroke="#bf0000" fill="#bf0000">Marites</text>
       </g>
     </svg>
   );
